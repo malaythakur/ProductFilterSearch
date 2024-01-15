@@ -70,7 +70,7 @@ for (let i of products.data) {
     imgContainer.classList.add("img-container");
     //img tag
     let image = document.createElement("img");
-    imgContainer.setAttribute("src", i.image);
+    image.setAttribute("src", i.image);
     imgContainer.appendChild(image);
     card.appendChild(imgContainer);
 
